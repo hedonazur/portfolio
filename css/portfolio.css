@@ -1,0 +1,163 @@
+@font-face {
+    font-family: Parisish;
+    src: url("../fonts/george-williams_parisish/Parisish.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: Lovelo_black;
+    src: url("../fonts/lovelo/Lovelo Black.otf");
+    font-weight: bold;
+}
+body {
+  font-family: 'Roboto+Slab', sans-serif;
+  font-family: 'Raleway', sans-serif; 
+ 
+}
+section {
+  padding: 50px 0;
+}
+
+h2 {
+  letter-spacing: 3px;
+  font-size: 2em;
+  font-weight: 700;
+}
+/**navbar**/
+#header-nav {
+    background:#A52A2A;
+    border-radius:0;
+    border: none;
+}
+.navbar-brand a {
+  color:white;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.navbar-brand a:hover {
+  text-decoration: none;
+}
+#nav-list > li > a {
+    color:#fff;
+    text-align: center;
+}
+#nav-list > li > a:hover {
+    background:#CC6600;
+    color:#fff;
+    text-align: center;
+}
+/**header**/
+#header {
+  background: url("../img/foto_carol.jpg") no-repeat;
+  background-position: top center;
+  width:100%;
+  background-size:cover;
+  background-attachment:fixed;
+  position:relative;
+  opacity: .6;
+} 
+.header-wrap{
+  width:100%;
+  background-color:rgba(52,52,54,0.4);
+}
+.info-block{
+  padding:200px 0 200px 0;
+  color:#ffffff;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.info-block h1{
+  font-size:50px;
+  font-weight: bold;
+}
+.info-bg{
+  background-color:rgba(30,54,54,0.7);
+  display:inline-block;
+  padding:30px 50px 30px 50px;
+}
+#portfolio img {
+  max-width: 90%;
+  opacity: 1;
+  transition: opacity 0.5s, box-shadow 0.5s;
+}
+#portfolio img:hover {
+  opacity: 1;
+  box-shadow: 0px 10px 50px #f7abcb;
+  transition: opacity 0.5s, box-shadow 0.5s;
+}
+
+a  {
+  text-transform:uppercase;   
+  }
+
+.btnPurple {
+  background: #c72555;
+}
+.btnFade.btnPurple:hover {
+  background: #6D184B;
+}
+
+
+
+
+#portfolio {
+  
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url("../img/landscape_snow_l.jpg");
+
+}
+
+section#about {
+  background: #f2dede;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size:24px
+}
+
+footer .footer-above {
+  padding-top: 30px;
+  background-color: #c7254e;
+  color: white;
+}
+footer .footer-col {
+  margin-bottom: 30px;
+}
+footer .footer-below {
+  padding: 25px 0;
+  background-color: #861935;
+  color: white;
+}
+.btn-outline {
+  color: white;
+  font-size: 30px;
+  border: solid 4px white;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: #18BC9C;
+  background: white;
+  border: solid 2px white;
+}
+.btn-social {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 2px solid white;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 45px;
+}
+
