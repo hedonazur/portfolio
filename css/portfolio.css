@@ -24,7 +24,8 @@ h2 {
 }
 /**navbar**/
 #header-nav {
-    background:#A52A2A;
+
+    background:#5D6D7E;
     border-radius:0;
     border: none;
 }
@@ -47,18 +48,15 @@ h2 {
 }
 /**header**/
 #header {
-  background: url("../img/foto_carol.jpg") no-repeat;
+  background: url("../img/keyboard.jpeg") no-repeat;
   background-position: top center;
   width:100%;
   background-size:cover;
   background-attachment:fixed;
   position:relative;
-  opacity: .6;
+  
 } 
-.header-wrap{
-  width:100%;
-  background-color:rgba(52,52,54,0.4);
-}
+
 .info-block{
   padding:200px 0 200px 0;
   color:#ffffff;
@@ -79,7 +77,7 @@ h2 {
   transition: opacity 0.5s, box-shadow 0.5s;
 }
 #portfolio img:hover {
-  opacity: 1;
+  opacity: .3;
   box-shadow: 0px 10px 50px #f7abcb;
   transition: opacity 0.5s, box-shadow 0.5s;
 }
@@ -95,9 +93,6 @@ a  {
   background: #6D184B;
 }
 
-
-
-
 #portfolio {
   
   position: relative;
@@ -108,13 +103,34 @@ a  {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url("../img/landscape_snow_l.jpg");
+  background-color: #EAECEE;
 
 }
-
-section#about {
-  background: #f2dede;
+/**About**/
+#about {
+  background: url("../img/laptop_white.jpg") no-repeat;
+  background-position: top center;
+  width:100%;
+  background-size:cover;
+  background-attachment:fixed;
+  position:relative;
+} 
+.about-block{
+  padding:20px 0 20px 0;
+  color:#ffffff;
+  font-family: 'Roboto Condensed', sans-serif;
 }
+.about-block h1{
+  font-size:50px;
+  font-weight: bold;
+}
+.about-bg{
+  background-color:rgba(30,54,54,0.7);
+  display:inline-block;
+  padding:30px 50px 30px 50px;
+}
+#
+
 
 footer h3 {
   font-weight: 700;
@@ -123,7 +139,7 @@ footer h3 {
 
 footer .footer-above {
   padding-top: 30px;
-  background-color: #c7254e;
+  background-color: #626567;
   color: white;
 }
 footer .footer-col {
@@ -131,7 +147,7 @@ footer .footer-col {
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #861935;
+  background-color: #5D6D7E;
   color: white;
 }
 .btn-outline {
