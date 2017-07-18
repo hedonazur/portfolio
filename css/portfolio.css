@@ -50,7 +50,7 @@ h2 {
 
 /**header**/
 #header {
-  background: url("../img/laptop_white.jpg") no-repeat;
+  background: url("../img/laptop_white_c.jpg") no-repeat;
   background-position: top center;
   width:100%;
   background-size:cover;
@@ -118,7 +118,7 @@ a  {
 }
 /**About**/
 #about {
-  background: url("../img/table_computer.jpeg") no-repeat;
+  background: url("../img/table_computer_c.jpeg") no-repeat;
   background-position:bottom center;
   width:100%;
   background-size:cover;
