@@ -38,6 +38,9 @@ h2 {
 .navbar-brand a:hover {
   text-decoration: none;
 }
+#collapsable-nav a  {
+  text-transform:uppercase;   
+  }
 #nav-list > li > a {
     color:#fff;
     text-align: center;
@@ -93,10 +96,6 @@ h2 {
   transition: opacity 0.5s, box-shadow 0.5s;
 }
 
-a  {
-  text-transform:uppercase;   
-  }
-
 .btnPurple {
   background: #c72555;
 }
@@ -139,17 +138,17 @@ a  {
   color:#ffffff;
   font-family: 'Roboto Condensed', sans-serif;
 }
-.about-block h1{
-  font-size:50px;
-  font-weight: bold;
+
+#about a:link, a:visited { 
+    text-decoration: none;
+    cursor: auto;
 }
+
 .about-bg{
-  background-color:rgba(30,54,54,0.7);
+  background-color:rgba(30,54,54,0.8);
   display:inline-block;
   padding:30px 50px 30px 50px;
 }
-
-
 
 footer h3 {
   font-weight: 700;
