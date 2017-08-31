@@ -85,6 +85,11 @@ h2 {
   border-radius: 15px;
   opacity: 1;
 }
+
+#graphic {
+  padding:30px 50px 30px 50px;
+
+}
 #portfolio img {
   max-width: 90%;
   opacity: 1;
